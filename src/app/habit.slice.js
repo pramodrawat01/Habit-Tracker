@@ -11,8 +11,8 @@ export const fetchHabits = createAsyncThunk("habits/fetchHabits", async ()=>{
     // simulatin gan api call
     await new Promise((resolve => setTimeout(resolve, 1000)))
     const mockHabits = [
-        {id : 1, name : "read", frequency : "Daily", completedDates : [], createdAt : new Date().toISOString()},
-        {id : 2, name : "write" , frequency : "Daily", completedDates : [], createdAt : new Date().toISOString()},
+        {id : 1, name : "Write script for youtube video", frequency : "weekly", completedDates : [], createdAt : new Date().toISOString()},
+        {id : 2, name : "Run 2 km" , frequency : "Daily", completedDates : [], createdAt : new Date().toISOString()},
        
     ]
 
