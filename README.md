@@ -1,6 +1,6 @@
 # Habit Tracker
 
-A modern React application with responsive design and clean component structure.
+A minimal and fast habit tracker built with React and Vite to help users track daily and weekly habits.
 
 ### 🔗 Live Site  
 👉 [habit-tracker-git-main-pramod-singh-rawats-projects.vercel.app](https://habit-tracker-git-main-pramod-singh-rawats-projects.vercel.app)
@@ -10,8 +10,8 @@ A modern React application with responsive design and clean component structure.
 
 ### ⚙️ Tech Stack  
 - React  
-- CSS / Tailwind (if used)  
-- Vite / CRA  
+- Tailwind
+- Vite  
 - Deployed on Vercel  
 
 ---
@@ -19,7 +19,7 @@ A modern React application with responsive design and clean component structure.
 ### 📁 How to Run
 
 ```bash
-git clone https://github.com/your-username/your-repo-name.git
+git clone https://github.com/pramodrawat01/Habit-Tracker.git
 cd your-repo-name
 npm install
-npm start
+npm run dev
